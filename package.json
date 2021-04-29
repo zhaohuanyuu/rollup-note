@@ -4,7 +4,7 @@
   "description": "rollup learning note",
   "main": "main.js",
   "scripts": {
-    "build": "rollup --config"
+    "build": "rollup --config -c"
   },
   "repository": {
     "type": "git",
