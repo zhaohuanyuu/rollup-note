@@ -1,7 +1,17 @@
-'use strict';
+(function (factory) {
+	typeof define === 'function' && define.amd ? define(factory) :
+	factory();
+}((function () { 'use strict';
 
-const greet = function () {
-	console.log('greet');
-};
+	function test () {
+		console.log('test');
+	}
 
-greet();
+	const greet = function () {
+		console.log('greet');
+	};
+
+	console.log(test);
+	greet();
+
+})));
