@@ -1,12 +1,8 @@
-const greet = function () {
-	console.log('greet');
-}
+import { getVersion, lazyLoad } from './main';
 
-const foo = function() {
-	console.log('foo');
-}
+const version = getVersion();
+console.log(version);
 
-export {
-	foo,
-	greet
-};
+document.querySelector('#btn').onclick = lazyLoad;
+
+
