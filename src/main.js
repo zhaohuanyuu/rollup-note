@@ -8,7 +8,7 @@ const getVersion = function() {
 }
 
 const lazyLoad = function() {
-	import('./module').then(res => console.log(res));
+	// import('./module').then(res => console.log(res));
 }
 
 export {
